@@ -11,7 +11,6 @@ import com.assignment.xento.databinding.ActivityDashboardBinding
 import com.assignment.xento.ui.dashboard.books.fragment.BookFragment
 import com.assignment.xento.ui.dashboard.news.fragment.NewsFragment
 import com.assignment.xento.ui.dashboard.viewmodel.DashBoardViewModel
-import com.assignment.xento.ui.main.SectionsPagerAdapter
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
