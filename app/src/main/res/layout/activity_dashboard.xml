@@ -5,12 +5,12 @@
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".ui.dashboard.DashBoardActivity">
+        android:layout_height="match_parent">
 
         <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/teal_200"
             android:theme="@style/Theme.Assignment.AppBarOverlay">
 
             <TextView
@@ -27,7 +27,9 @@
                 android:id="@+id/tabs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="?attr/colorPrimary" />
+                android:background="@color/teal_200"
+                android:textColor="@color/teal_700" />
+
         </com.google.android.material.appbar.AppBarLayout>
 
         <androidx.viewpager.widget.ViewPager
@@ -40,8 +42,8 @@
             android:id="@+id/layoutProgress"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:visibility="gone"
-            android:background="#68BCB7B7">
+            android:background="#68BCB7B7"
+            android:visibility="gone">
 
             <ProgressBar
                 android:id="@+id/progress_circular_id"
