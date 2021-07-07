@@ -13,6 +13,9 @@ import com.assignment.xento.ui.dashboard.news.fragment.NewsFragment
 import com.assignment.xento.ui.dashboard.viewmodel.DashBoardViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
+/**
+ * Dashboard Activity for main
+ */
 @AndroidEntryPoint
 class DashBoardActivity : BindingActivity<ActivityDashboardBinding>() {
 
